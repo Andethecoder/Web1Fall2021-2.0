@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+            * {
+               margin: 0;
+               padding:0;
+               box-sizing:border-box;
+            }
+            header {
+                text-align:center;
+                background:lightgrey;
+                color:black;
+            }
+            nav {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:darkblue;
+                color:white;
+                padding:2vh;
+                height:10vh;
+            }
+            .container {
+                min-height:70vh;
+                background:beige;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+            }
+            .flex-container {
+                display: flex;
+                flex-direction: column;
+                background: lightgrey
+            }
+            .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                background: black;
+                margin: 1vh auto;
+                width: 100%;
+            }
+            .row-item {
+                flex-basis: 100%;
+              text-align: center;
+              min-height: 30vh;
+              background: teal;
+              margin: 1vh;
+              border: 1px black solid;
+            }
+            .row-item h3 {
+                padding: 1.5rem;
+                font-size: 1.5rem;
+                background: Grey;
+            }
+            .row-item p {
+                font-size: 1.15rem;
+                color: white;
+                padding: 1rem;
+            }
+            .row-movie {
+                height: 25vh;
+                background: red;
+            }
+            .flex-container h2 {
+                font-size: 2rem;
+                padding: 1rem;
+            }
+            .row-movie iframe {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            
+            </style>
+        <title>Flexbox Favorite Music</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Flexbox Rows: Favorite Music</h1>
+            <p>
+                Demitrius Anderson<br>
+                Web 1, 4th Hour<br>
+                November 18, 2021
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Favorite Artists
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            <div class="flex-container">
+                
+                <h2>Rihanna--Pop</h2>
+                <!-- Start of row 1 -->
+                <div class="row">
+                    
+                    <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/HBxt_v0WF6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Where Have You Been</h3>
+                        <p>
+                            She's trying to find the one she loved.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xXD5tltX9Pg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Umbrella</h3>
+                        <p>
+                            She's telling him that she'll be his friend to the end.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/e82VE8UtW8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Rude Boy</h3>
+                        <p>
+                            She wants him to have some fun with her.
+                        </p>
+                    </div><!-- End row item -->
+                    
+                </div><!-- End of row -->
+                
+                <h2>Nitro Fun--Electronic</h2>
+                <!-- Start of row 2 -->
+                <div class="row">
+                    
+                    <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VGh5DV0D3wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Final Boss</h3>
+                        <p>
+                            There's no description.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XWAaYe1fPjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Dragonfly</h3>
+                        <p>
+                            There's no description.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mdaCDsN1FJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Cheat Codes</h3>
+                        <p>
+                            There's no description.
+                        </p>
+                    </div><!-- End row item -->
+                    
+                </div><!-- End of row -->
+                
+                <h2>Dex Arson--Electronic</h2>
+                <!-- Start of row 3 -->
+                <div class="row">
+                    
+                    <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0MZvDD_sy-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Years</h3>
+                        <p>
+                            There's no description.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/f3wAripOdag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Frontlines</h3>
+                        <p>
+                            There's no description
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EWjZOxs87yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Machina</h3>
+                        <p>
+                            There's no description.
+                        </p>
+                    </div><!-- End row item -->
+                    
+                </div><!-- End of row -->
+                
+                <h2>Beyonce--Pop</h2>
+                <!-- Start of row 4 -->
+                <div class="row">
+                    
+                    <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ob7vObnFUJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Love on Top</h3>
+                        <p>
+                            She's telling him that he's the one she loves.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VBmMU_iwe6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Run the World (Girls) </h3>
+                        <p>
+                            She's telling the army that women will run the world.
+                        </p>
+                    </div><!-- End row item -->
+                  
+                  <div class="row-item">
+                        <div class="row-movie">
+                            <!-- iframe from Youtube will go here -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ViwtNLUqkMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3>Crazy in Love</h3>
+                        <p>
+                            She's crazy in love with Jay Z.
+                        </p>
+                    </div><!-- End row item -->
+                    
+                </div><!-- End of row -->
+                
+                
+            </div><!-- End flex container -->
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Made in FHS Web Design
+        </footer>
+    </body>
+</html>
